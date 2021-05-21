@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body
-   response.end('This is my week 2 assignment file uploaded on Github!\n')
+   response.end('This is my week 3 assignment file uploaded on Github! Web application deployed using a CloudFormation Template!\n')
 }).listen(3333)
 
 // Console will print the message
